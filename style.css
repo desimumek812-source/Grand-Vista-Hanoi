@@ -1,0 +1,163 @@
+body {
+    background-color:rgba(10, 150, 243, 0.301);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 6, 13);
+    line-height: 1.6;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(134, 250, 221);
+    padding: 0.8rem 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.brand {
+    color: rgba(0, 0, 0, 0.774);
+    font-weight: 700;
+    font-size: 1.2;
+}
+
+.site-nav ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.site-nav a {
+    color: rgb(22, 23, 20);
+    text-decoration: none;
+}
+
+.site-nav a:hover {
+    color: rgb(250, 67, 204);
+}
+
+.sampul {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.986);
+    padding: 5rem 1rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/Grand\ vista\ hanoi.jpg") center/cover no-repeat;
+}
+
+
+h1 {
+    text-align: center;
+}
+.penting {
+    text-align: center;
+    color: red;
+}
+.p2 {
+    text-align: center;
+    color: rgba(255, 196, 0, 0.897);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: rgb(249, 172, 153);
+    color: rgb(22, 23, 20);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+.btn:hover {
+    background-color: rgba(250, 67, 226, 0.904);
+}
+
+h2 {
+    border-bottom: 2px solid rgb(22, 23, 20);
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.fasilitas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.item-fasilitas {
+    background-color: rgba(255, 255, 255, 0.404);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.grid-galeri {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.grid-galeri figure {
+    margin: 0;
+    background-color: rgb(0, 204, 255);
+    text-align: center;
+}
+
+.grid-galeri img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.grid-galeri figcaption {
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(22, 23, 20);
+    padding: 0.6rem 0.8rem;
+    text-align: center;
+}
+
+thead th {
+    background: rgb(134, 250, 175);
+    color: rgb(22, 23, 20);   
+}
+
+tbody tr:nth-child(even) {
+    background: rgb(249, 172, 153);
+}
+
+fieldset {
+    border: 1px solid rgb(22, 23, 20);
+    border-radius: 10px;
+    margin-bottom: 1.2rem;
+}
+
+legend {
+    padding: 0 0.5rem;
+    color:  rgba(0, 0, 0, 0.753);
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid rgb(22, 23, 20);
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+}

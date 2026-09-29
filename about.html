@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== HEADER & NAVIGASI ===== -->
+    <header class="site-header">
+      <div class="brand"> Grand Vista Hanoi </div>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#daya-tarik">Daya Tarik</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#pesan">Pesan</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ===== SAMPUL ===== -->
+    <section class="sampul">
+      <img src="images/Grand vista hanoi.jpg" alt="Hotel Grand Vista Populer" />
+      <div class="hero-teks">
+        <h1>GRAND VISTA HANOI</h1>
+        <p>Hotel nyaman dengan fasilitas lengkap untuk pengalaman menginap yang menyenangkan.</p>
+        <a class="btn" href="#pesan">Pesan Sekarang</a>
+      </div>
+    </section>
+    
+
+    <main>
+      <!-- ===== TENTANG ===== -->
+      <section id="tentang">
+        <h2>Tentang Grand Vista Hanoi</h2>
+        <p><strong>Grand Vista Hanoi</strong> adalah hotel yang menyediakan tempat menginap dengan suasana nyaman dan fasilitas yang lengkap untuk memenuhi kebutuhan para tamu <em>Grand Vista Hanoi</em>.Hotel ini terkenal dengan fasilitas yang lengkap dan suasana yang nyaman.</p>
+        <p><strong>Lokasi: Distrik Ba Dinh, Hanoi, Vietnam 📍</strong></p>
+      </section>
+
+      <!-- ===== DAYA TARIK (KARTU) ===== -->
+
+
+      <section id="daya-tarik">
+    <h2>Daya Tarik</h2>
+
+    <h3>Fasilitas Rekreasi & Hiburan:</h3>
+    <p>Menyediakan fasilitas rekreasi dan hiburan yang nyaman untuk bersantai dan menikmati waktu selama menginap.</p>
+
+    <div class="fasilitas">
+
+        <div class="item-fasilitas">
+            <h3>Kolam Renang</h3>
+            <p>Area kolam renang yang dapat digunakan untuk bersantai dan menikmati suasana hotel.</p>
+        </div>
+
+        <div class="item-fasilitas">
+            <h3>Restoran & Kuliner</h3>
+            <p>Menyediakan pilihan makanan dan minuman yang dapat dinikmati oleh tamu hotel.</p>
+        </div>
+
+        <div class="item-fasilitas">
+            <h3>Kamar yang Nyaman</h3>
+            <p>Kamar hotel dirancang untuk memberikan kenyamanan bagi tamu selama menginap.</p>
+        </div>
+
+        <div class="item-fasilitas">
+            <h3>Panorama & Sunset</h3>
+            <p>Menikmati pemandangan indah dan suasana sunset di sekitar hotel.</p>
+        </div>
+
+    </div>
+</section>
+
+      <!-- ===== GALERI ===== -->
+      <section id="galeri">
+    <h2>Galeri</h2>
+
+    <div class="grid-galeri">
+
+        <figure>
+            <img src="images/loby1.jpg" alt="Lobi Hotel">
+            <figcaption>Lobi Hotel</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/kamar.jpg" alt="Kamar Hotel">
+            <figcaption>Kamar Hotel</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Kolam.jpg" alt="Kolam Renang">
+            <figcaption>Kolam Renang</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Restoran.jpg" alt="Restoran">
+            <figcaption>Restoran</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Gym.jpg" alt="Tempat Olahraga">
+            <figcaption>Tempat Olahraga</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/sunset.jpg" alt="Sunset">
+            <figcaption>Sunset</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Area parkir.jpeg" alt="Perkiran">
+            <figcaption>Parkiran</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Ruang pertemuan.jpg" alt="Ruang meeting">
+            <figcaption>Ruang meeting</figcaption>
+        </figure>
+
+    </div>
+</section>
+
+      <!-- ===== TABEL HARGA TIKET ===== -->
+      <section id="tiket">
+        <h2>Harga &amp; Fasilitas</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Layanan</th>
+              <th>Keterangan</th>
+              <th>Tarif</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Kamar Standard</td>
+              <td>Per malam</td>
+              <td>Rp 500.000</td>
+            </tr>
+            <tr>
+              <td>Kamar Deluxe</td>
+              <td>Per malam</td>
+              <td>Rp 750.000</td>
+            </tr>
+            <tr>
+              <td>Kolam Renang</td>
+              <td>Per orang</td>
+              <td>Gratis</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- ===== FORMULIR PEMESANAN ===== -->
+      <section id="pesan">
+        <h2>Booking Kamar</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Data Pengunjung</legend>
+
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" required />
+
+            <label for="kamar">jenis kamar</label>
+            <input id="kamar" name="nama" required />
+
+            <label for="tgl">Tanggal Kunjungan</label>
+            <input type="date" id="tgl" name="tgl" />
+
+            <label for="jml">Jumlah Orang</label>
+            <input type="number" id="jml" name="jml" min="1" max="20" />
+
+            <label for="paket">Paket</label>
+            <select id="kamar" name="nama">
+              <option>kamar standard</option>
+              <option>kamar Deluxe</option>
+              <option>kamar Suite</option>
+            </select>
+
+            <label for="catatan">Catatan</label>
+            <textarea id="catatan" name="catatan" rows="3"></textarea>
+
+            <button type="submit">Kirim Pesanan</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      <p>Grand Vista Hanoi Kelas Web Design</p>
+      <p>Email: <a href="mailto:info@grandvistahanoi.example">info@grandvistahanoi.example</a></p>
+      <p>Telp: <a href="tel:+62431000000">0822-3854-0907</a></p>
+      <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+    </footer>
+  </body>
+</html>
